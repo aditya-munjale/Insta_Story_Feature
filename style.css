@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(159, 244, 244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  height: 480px;
+  width: 300px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.storiyan {
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid rgb(126, 124, 124);
+  padding: 10px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.storiyan::-webkit-scrollbar {
+  display: none;
+}
+
+.story {
+  height: 80px;
+  width: 80px;
+  border: 3px solid rgb(232, 60, 60);
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin: 1px;
+}
+
+.story img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.full-screen {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  display: none;
+}
+
+.footer{
+  height: 45px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+
+.footer i {
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+header{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+header h3{
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+.header-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
